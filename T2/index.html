@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Form</title>
+  <!-- Add your CSS styles if needed -->
+  <style>
+    @font-face {
+      font-family: 'Neue Montreal';
+      src: url('NeueMontreal-Regular.ttf');
+    }
+
+    body {
+      font-family: "Neue Montreal";
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 15vh; /* 15% height for the header */
+      background-color: #f2f2f2;
+    }
+
+    .logo {
+      max-width: 200px; /* Adjust the size as needed for larger screens */
+      margin: 10px; /* Reduced margin for smaller screens */
+    }
+
+    .form-iframe {
+      width: 100%;
+      height: 80vh; /* 80% height for the iframe */
+      border: none;
+    }
+    
+    .footer {
+      height: 5vh; /* 5% height for the footer */
+      background-color: #6a6868;
+      color: #fff;
+      padding: 0.05px 0;
+      font-size: small;
+    }
+
+    /* Media query for smaller screens (mobile devices) */
+    @media (max-width: 768px) {
+      .logo {
+        max-width: 150px; /* Adjust size for smaller screens */
+        margin: 5px; /* Adjust margin for smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <!-- Company Logos -->
+    <img src="Group 125.svg" alt="Company Logo" class="logo">
+    <img src="Fudbeens Ingrediants.png" alt="Company Logo" class="logo">
+  </header>
+  
+  <!-- Form iframe -->
+  <iframe src="https://forms.zohopublic.in/abhinavchebrolu/form/Test/formperma/j2gkTysMgogCPVMglo70ceOAR8eKkVxl7BzyFht44N4" frameborder="0" class="form-iframe"></iframe>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 SPAC Box and/or its affiliates. Other names may be trademarks of their respective owners.</p>
+  </footer>
+</body>
+</html>
